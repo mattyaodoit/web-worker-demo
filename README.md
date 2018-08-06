@@ -1,3 +1,3 @@
-# simple-web-worker
+# web-worker-demo
 
-A simple web worker test. [View this demo live](http://mdn.github.io/simple-web-worker/).
+A simple web worker demo. [View this demo live](https://mattyao1984.github.io/web-worker-demo/).
