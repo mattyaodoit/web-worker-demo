@@ -1,7 +1,6 @@
-importScripts('../lib.js');
+importScripts('lib.js');
 
 onmessage = function(e) {
-  console.log('lib: ', sum(1, 3));
   // Can close with close()
   if (isNaN(e.data[0]) || isNaN(e.data[1])) {
     console.log('Terminate worker from worker!');

@@ -11,12 +11,12 @@ if (window.Worker) { // Check if Browser supports the Worker api.
   // an entered value is changed, and you don't want to have to unfocus the field to update its .value
 
   first.onchange = function() {
-    sharedWorker.postMessage([first.value,second.value]); // Sending message as an array to the worker
+    sharedWorker.port.postMessage([first.value,second.value]); // Sending message as an array to the worker
     console.log('Message posted to worker');
   };
 
   second.onchange = function() {
-    sharedWorker.postMessage([first.value,second.value]);
+    sharedWorker.port.postMessage([first.value,second.value]);
     console.log('Message posted to worker');
   };
 

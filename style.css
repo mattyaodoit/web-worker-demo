@@ -12,6 +12,11 @@ h1 {
 	z-index: -1;
 }
 
+h2 {
+	font-size: 24px;
+	margin: 0 20px;
+}
+
 p {
 	margin: 0;
 }
@@ -36,5 +41,23 @@ p {
 
 .controls div {
   padding-bottom: 1rem;
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+li > a {
+	transition: all 0.2s linear;
+	font-size: 16px;
+	margin: 0 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+li > a:hover {
+	color: #05f;
+	text-decoration: underline;
 }
 
