@@ -1,4 +1,4 @@
-importScripts('../lib.js');
+importScripts('multiply.js');
 
 onconnect = function(e) {
   var port = e.ports[0]; // get the port
