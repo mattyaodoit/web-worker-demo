@@ -1,4 +1,4 @@
-importScripts('lib.js');
+importScripts('../lib.js');
 
 onmessage = function(e) {
   console.log('lib: ', sum(1, 3));
